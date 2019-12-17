@@ -1,0 +1,1 @@
+<h1 class="header-title" theme=<?php echo $theme; ?>><?php echo $title; ?></h1>

@@ -1,0 +1,17 @@
+.work-item {
+	width: 50%;
+}
+
+.work-progress-container .work-item {
+	width: 25%;
+}
+
+@media print, screen and (max-width: 1024px) {
+	.work-item {
+		width: 100%;
+	}
+
+	.work-progress-container .work-item {
+		width: 100%;
+	}		
+}

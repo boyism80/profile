@@ -1,0 +1,19 @@
+.flex-column.content-left,
+.flex-column.content-right {
+	flex-basis: auto;
+}
+
+.flex-column.content-left {
+	width: 66.6666%;
+}
+
+.flex-column.content-right {
+	width: 33.3333%;
+}
+
+@media print, screen and (max-width: 1024px) {
+	.flex-column.content-left,
+	.flex-column.content-right {
+		width: 100%;
+	}	
+}

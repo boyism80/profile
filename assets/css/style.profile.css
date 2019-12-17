@@ -1,0 +1,17 @@
+.flex-column.content-left,
+.flex-column.content-right {
+	padding: 0 1rem;
+}
+
+.content-right p {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 2rem;
+}
+
+@media screen, print and (max-width: 1024px) {
+
+	.content-left h2 {
+		margin-bottom: 1rem;
+	}
+}
