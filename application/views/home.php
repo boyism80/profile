@@ -173,7 +173,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="flex-column padding-width-2x show-desktop">
 					<?php
 					$this->load->view('partition/work_item', array('title' => 'Latest Article - 8 Tips For Boosting Your Website’s Performance', 
-						'src' => 'assets/image/8-Tips-For-Boosting-Your-Website’s-Performance_b52aeff1da97c6da6d7956e791a586c1.jpg',
+						'src' => 'assets/image/8Tips.jpg',
 						'titleSize' => 'h3'))
 					?>
 				</div>
