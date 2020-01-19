@@ -5,7 +5,7 @@ if(empty($theme))
 
 <div id="header" theme=<?php echo $theme; ?>>
 	<div class="header-container">
-		<a href="<?php echo base_url(); ?>" class="header-site-logo">boyism80</a>
+		<a href="/" class="header-site-logo">boyism80</a>
 		<nav class="header-site-nav show-desktop">
 			<ul>
 				<li>
