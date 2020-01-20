@@ -28,10 +28,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="section-container">
 			<div class="work-item-container">
 				<?php 
-				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/8-Tips-For-Boosting-Your-Website’s-Performance_b52aeff1da97c6da6d7956e791a586c1.jpg'));
+				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/8Tips.jpg'));
 				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/njorun-madebyshape-thumb2_ba70c53f73b486e4404b9862f59e6e07.jpg'));
 				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/kirsty-intro_b52aeff1da97c6da6d7956e791a586c1.jpg'));
-				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/8-Tips-For-Boosting-Your-Website’s-Performance_b52aeff1da97c6da6d7956e791a586c1.jpg'));
+				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/8Tips.jpg'));
 				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/kirsty-intro_b52aeff1da97c6da6d7956e791a586c1.jpg'));
 				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/njorun-madebyshape-thumb2_ba70c53f73b486e4404b9862f59e6e07.jpg'));
 				?>
