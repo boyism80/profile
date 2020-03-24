@@ -40,12 +40,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 	<div class="section">
 		<div class="owl-carousel" data-aos="fade-up">
-			<img src='assets/image/profile/Shape-2018-LR-3_9977872a3f7a78a7f287b4fd61d9121a.jpg' />
-			<img src='assets/image/profile/Shape-2018-LR-115_9977872a3f7a78a7f287b4fd61d9121a.jpg' />
-			<img src='assets/image/profile/Shape-2018-LR-15_9977872a3f7a78a7f287b4fd61d9121a.jpg' />
-			<img src='assets/image/profile/Shape-2018-LR-121_9977872a3f7a78a7f287b4fd61d9121a.jpg' />
-			<img src='assets/image/profile/Shape-2018-LR-118_9977872a3f7a78a7f287b4fd61d9121a.jpg' />
-			<img src='assets/image/profile/Shape-2018-LR-46_9977872a3f7a78a7f287b4fd61d9121a.jpg' />
+			<img src='<?php cdn('assets/image/profile/Shape-2018-LR-3_9977872a3f7a78a7f287b4fd61d9121a.jpg'); ?>' />
+			<img src='<?php cdn('assets/image/profile/Shape-2018-LR-115_9977872a3f7a78a7f287b4fd61d9121a.jpg'); ?>' />
+			<img src='<?php cdn('assets/image/profile/Shape-2018-LR-15_9977872a3f7a78a7f287b4fd61d9121a.jpg'); ?>' />
+			<img src='<?php cdn('assets/image/profile/Shape-2018-LR-121_9977872a3f7a78a7f287b4fd61d9121a.jpg'); ?>' />
+			<img src='<?php cdn('assets/image/profile/Shape-2018-LR-118_9977872a3f7a78a7f287b4fd61d9121a.jpg'); ?>' />
+			<img src='<?php cdn('assets/image/profile/Shape-2018-LR-46_9977872a3f7a78a7f287b4fd61d9121a.jpg'); ?>' />
 		</div>
 	</div>
 	<?php

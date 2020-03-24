@@ -28,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="flex-column content-left">
 					<a href="#" class="work-item" data-aos="fade-up">
 						<div class="work-item-thumb">
-							<img src="assets/image/culture/Shape-2018-LR-3_d3867277feb154defec9b24a5714fadb.jpg" />
+							<img src="<?php cdn('assets/image/culture/Shape-2018-LR-3_d3867277feb154defec9b24a5714fadb.jpg'); ?>" />
 						</div>
 						<h3 class="work-item-title">Our Environment</h3>
 						<p class="work-item-content">Our home from home. We want our team members to feel comfortable in the space, and for clients to feel welcome when they visit us for meetings. It’s scientifically proven that the interior design of an environment promotes creative thinking, innovation and productivity. Our office is designed by our team; when people get what they want from their office space, they want to come here every day.</p>
@@ -37,14 +37,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="flex-column content-right">
 					<a href="#" class="work-item" data-aos="fade-up">
 						<div class="work-item-thumb">
-							<img src="assets/image/culture/Shape-2018-LR-115_d3867277feb154defec9b24a5714fadb.jpg" />
+							<img src="<?php cdn('assets/image/culture/Shape-2018-LR-115_d3867277feb154defec9b24a5714fadb.jpg'); ?>" />
 						</div>
 						<h3 class="work-item-title">Our Ethos</h3>
 						<p class="work-item-content">We produce good work for good people. With the idea that the client will be happy, and bring more work our way.</p>
 					</a>
 					<a href="#" class="work-item" data-aos="fade-up">
 						<div class="work-item-thumb">
-							<img src="assets/image/culture/team-trips-thumb_d3867277feb154defec9b24a5714fadb.jpg" />
+							<img src="<?php cdn('assets/image/culture/team-trips-thumb_d3867277feb154defec9b24a5714fadb.jpg'); ?>" />
 						</div>
 						<h3 class="work-item-title">Team Trips</h3>
 						<p class="work-item-content">It's important to treat, reward, and look after team members. We organise trips to let our hair down and enjoy time together socially.</p>

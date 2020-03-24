@@ -28,12 +28,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="section-container">
 			<div class="work-item-container">
 				<?php 
-				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/8Tips.jpg'));
-				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/njorun-madebyshape-thumb2_ba70c53f73b486e4404b9862f59e6e07.jpg'));
-				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/kirsty-intro_b52aeff1da97c6da6d7956e791a586c1.jpg'));
-				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/8Tips.jpg'));
-				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/kirsty-intro_b52aeff1da97c6da6d7956e791a586c1.jpg'));
-				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => 'assets/image/njorun-madebyshape-thumb2_ba70c53f73b486e4404b9862f59e6e07.jpg'));
+				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => cdn('assets/image/8Tips.jpg')));
+				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => cdn('assets/image/njorun-madebyshape-thumb2_ba70c53f73b486e4404b9862f59e6e07.jpg')));
+				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => cdn('assets/image/kirsty-intro_b52aeff1da97c6da6d7956e791a586c1.jpg')));
+				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => cdn('assets/image/8Tips.jpg')));
+				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => cdn('assets/image/kirsty-intro_b52aeff1da97c6da6d7956e791a586c1.jpg')));
+				$this->load->view('partition/work_item', array('title' => 'Boys By Girls', 'src' => cdn('assets/image/njorun-madebyshape-thumb2_ba70c53f73b486e4404b9862f59e6e07.jpg')));
 				?>
 			</div>
 		</div>
@@ -45,31 +45,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<?php
 				$this->load->view('partition/work_item', array('title' => 'Lorem ipsum', 
 					'titleSize' => 'h3', 
-					'src' => 'assets/image/dribbble_1x_85fe4262e6f7d664e679f74b4c4d6c35.jpg'));
+					'src' => cdn('assets/image/dribbble_1x_85fe4262e6f7d664e679f74b4c4d6c35.jpg')));
 				$this->load->view('partition/work_item', array('title' => 'Lorem ipsum', 
 					'titleSize' => 'h3', 
-					'src' => 'assets/image/header-variations_1x_85fe4262e6f7d664e679f74b4c4d6c35.gif'));
+					'src' => cdn('assets/image/header-variations_1x_85fe4262e6f7d664e679f74b4c4d6c35.gif')));
 				?>
 				<div class="show-desktop">
 				<?php
 				$this->load->view('partition/work_item', array('title' => 'Lorem ipsum', 
 					'titleSize' => 'h3', 
-					'src' => 'assets/image/header-variations_1x_85fe4262e6f7d664e679f74b4c4d6c35.gif'));
+					'src' => cdn('assets/image/header-variations_1x_85fe4262e6f7d664e679f74b4c4d6c35.gif')));
 				$this->load->view('partition/work_item', array('title' => 'Lorem ipsum', 
 					'titleSize' => 'h3', 
-					'src' => 'assets/image/room_detail_1x_85fe4262e6f7d664e679f74b4c4d6c35.jpg'));
+					'src' => cdn('assets/image/room_detail_1x_85fe4262e6f7d664e679f74b4c4d6c35.jpg')));
 				$this->load->view('partition/work_item', array('title' => 'Lorem ipsum', 
 					'titleSize' => 'h3', 
-					'src' => 'assets/image/v1_1x_85fe4262e6f7d664e679f74b4c4d6c35.jpg'));
+					'src' => cdn('assets/image/v1_1x_85fe4262e6f7d664e679f74b4c4d6c35.jpg')));
 				$this->load->view('partition/work_item', array('title' => 'Lorem ipsum', 
 					'titleSize' => 'h3', 
-					'src' => 'assets/image/dribbble-full_1x_85fe4262e6f7d664e679f74b4c4d6c35.jpg'));
+					'src' => cdn('assets/image/dribbble-full_1x_85fe4262e6f7d664e679f74b4c4d6c35.jpg')));
 				$this->load->view('partition/work_item', array('title' => 'Lorem ipsum', 
 					'titleSize' => 'h3', 
-					'src' => 'assets/image/dribbble_1x_85fe4262e6f7d664e679f74b4c4d6c35 (1).jpg'));
+					'src' => cdn('assets/image/dribbble_1x_85fe4262e6f7d664e679f74b4c4d6c35 (1).jpg')));
 				$this->load->view('partition/work_item', array('title' => 'Lorem ipsum', 
 					'titleSize' => 'h3', 
-					'src' => 'assets/image/2_1x_85fe4262e6f7d664e679f74b4c4d6c35.jpg'));
+					'src' => cdn('assets/image/2_1x_85fe4262e6f7d664e679f74b4c4d6c35.jpg')));
 				?>
 				</div>
 			</div>

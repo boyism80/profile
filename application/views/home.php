@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" type="text/css" href="assets/css/aos/aos.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.home.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.app.css">
-	
+
 	<meta charset="utf-8">
 	<title>Home</title>
 
@@ -39,12 +39,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="slider-item-right">
-							<img src="assets/image/blob-1.svg">
+							<img src="<?php echo cdn('assets/image/blob-1.svg'); ?>">
 						</div>
 					</div>
 				</div>
 			</div>
-			
+
 			<div>
 				<div class="section-container">
 					<div class="slider-item">
@@ -56,7 +56,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="slider-item-right">
-							<img src="assets/image/blob-2.svg">
+							<img src="<?php echo cdn('assets/image/blob-2.svg'); ?>">
 						</div>
 					</div>
 				</div>
@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="slider-item-right">
-							<img src="assets/image/blob-3.svg">
+							<img src="<?php echo cdn('assets/image/blob-3.svg'); ?>">
 						</div>
 					</div>
 				</div>
@@ -88,7 +88,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="slider-item-right">
-							<img src="assets/image/blob-4.svg">
+							<img src="<?php echo cdn('assets/image/blob-4.svg'); ?>">
 						</div>
 					</div>
 				</div>
@@ -141,12 +141,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="flex-row">
 				<div class="flex-column">
 					<?php
-					$this->load->view('partition/work_item', array('title' => 'Njorun Activewear', 'src' => 'assets/image/njorun-madebyshape-thumb2_ba70c53f73b486e4404b9862f59e6e07.jpg'));
+					$this->load->view('partition/work_item', array('title' => 'Njorun Activewear', 'src' => cdn('assets/image/njorun-madebyshape-thumb2_ba70c53f73b486e4404b9862f59e6e07.jpg')));
 					?>
 				</div>
 				<div class="flex-column">
 					<?php
-					$this->load->view('partition/work_item', array('title' => 'The Plough at Lupton', 'src' => 'assets/image/plough-inn-lupton-madebyshape_ba70c53f73b486e4404b9862f59e6e07.jpg'));
+					$this->load->view('partition/work_item', array('title' => 'The Plough at Lupton', 'src' => cdn('assets/image/plough-inn-lupton-madebyshape_ba70c53f73b486e4404b9862f59e6e07.jpg')));
 					?>
 				</div>
 			</div>
@@ -158,22 +158,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="flex-row">
 				<div class="flex-column">
 					<?php
-					$this->load->view('partition/work_item', array('title' => 'Kirsty Intro Kirsty Meredith - New Project Manager at MadeByShape', 
-						'src' => 'assets/image/kirsty-intro_b52aeff1da97c6da6d7956e791a586c1.jpg',
+					$this->load->view('partition/work_item', array('title' => 'Kirsty Intro Kirsty Meredith - New Project Manager at MadeByShape',
+						'src' => cdn('assets/image/kirsty-intro_b52aeff1da97c6da6d7956e791a586c1.jpg'),
 						'titleSize' => 'h3'))
 					?>
 				</div>
 				<div class="flex-column">
 					<?php
-					$this->load->view('partition/work_item', array('title' => 'Insight - Why our studio just outside of Manchester works for us', 
-						'src' => 'assets/image/Shape-2018-LR-15_b52aeff1da97c6da6d7956e791a586c1.jpg',
+					$this->load->view('partition/work_item', array('title' => 'Insight - Why our studio just outside of Manchester works for us',
+						'src' => cdn('assets/image/Shape-2018-LR-15_b52aeff1da97c6da6d7956e791a586c1.jpg'),
 						'titleSize' => 'h3'))
 					?>
 				</div>
 				<div class="flex-column padding-width-2x show-desktop">
 					<?php
-					$this->load->view('partition/work_item', array('title' => 'Latest Article - 8 Tips For Boosting Your Website’s Performance', 
-						'src' => 'assets/image/8Tips.jpg',
+					$this->load->view('partition/work_item', array('title' => 'Latest Article - 8 Tips For Boosting Your Website’s Performance',
+						'src' => cdn('assets/image/8Tips.jpg'),
 						'titleSize' => 'h3'))
 					?>
 				</div>

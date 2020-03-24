@@ -1,8 +1,14 @@
+<?php
+	$ci = get_instance();
+	$ci->load->helper('cdn');
+	$asset = cdn('assets/image/footer-hero-illustration.svg');
+?>
+
 <div class="section">
 	<div class="section-container">
 		<div class="flex-row vertical-align" data-aos="zoom-in">
 			<div class="flex-column padding-width-1x">
-				<img src="assets/image/footer-hero-illustration.svg" />
+				<img src="<?php echo $asset; ?>" />
 			</div>
 			<div class="flex-column padding-width-1x">
 				<h1 class="margin-bottom-1x">Let's be a man who can't substitute.</h1>
