@@ -37,3 +37,5 @@ function cdn($url = null)
         return $cdn_protocol . '://' . $cdn_domain . $url;
     }    
 }
+
+?>
