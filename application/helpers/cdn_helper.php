@@ -27,10 +27,11 @@ function cdn($url = null)
     $cdn_enabled        = $currentInstance->config->item('cdn_enabled');
     $cdn_domain         = $currentInstance->config->item('cdn_domain');
     $cdn_protocol       = $currentInstance->config->item('cdn_protocol');
+    $baseURL            = $currentInstance->config->item('base_url');
 
     if(empty($cdn_enabled))
     {
-        return $url;
+        return "${baseURL}${url}";
     }
     else
     {
