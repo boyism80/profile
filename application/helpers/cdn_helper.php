@@ -16,7 +16,7 @@ function cdn($url = null)
             'http://domain.com/image.jpeg.'
         );
     }
-        
+
     $pattern = '|^/|';        
     if(!preg_match($pattern, $url))
     {
