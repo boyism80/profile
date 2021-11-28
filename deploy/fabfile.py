@@ -22,6 +22,6 @@ def deploy():
             sudo('docker rm profile', quiet=True)
 
         sudo('docker build -t php:profile .', quiet=True)
-        sudo('docker run --name profile -d -v $PWD:/var/www/html -p 80:80 php:profile', quiet=True)
+        sudo('docker run --name profile --restart unless-stopped -d -v $PWD:/var/www/html -p 80:80 php:profile', quiet=True)
 
     local('rm profile.zip')
